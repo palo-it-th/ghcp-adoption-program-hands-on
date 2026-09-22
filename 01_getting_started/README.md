@@ -25,9 +25,8 @@
 2. ทำตามขั้นตอนเพื่อเชื่อมต่อบัญชี
 
 ### เริ่มใช้งาน
-- พิมพ์โค้ดหรือ comment แล้วดู Copilot แนะนำโค้ด
-- ใช้ `Tab` เพื่อยอมรับ suggestion
-- สามารถกด `Ctrl+Enter` เพื่อขอ Copilot ช่วยเขียนโค้ดจาก comment
+- พิมพ์โค้ดหรือ comment แล้วดู Copilot แนะนำโค้ดเป็น ghost text สีเทา
+- `Tab` รับ · `Esc` ปัด · `Alt` + `]` / `Alt` + `[` วนดูตัวเลือกอื่น
 
 ## 2. IntelliJ
 
@@ -44,7 +43,7 @@
 ### เริ่มใช้งาน
 - พิมพ์โค้ดหรือ comment แล้วดู Copilot แนะนำโค้ด
 - ใช้ `Tab` เพื่อยอมรับ suggestion
-- สามารถกด `Alt+Enter` เพื่อขอ Copilot ช่วยเขียนโค้ดจาก comment
+- ปุ่มลัดของ IntelliJ ต่างจาก VS Code ดูได้ที่ Settings > Keymap แล้วค้นคำว่า Copilot
 
 ## Tips
 - ใช้ comment อธิบาย requirement เพื่อให้ Copilot สร้างโค้ด
