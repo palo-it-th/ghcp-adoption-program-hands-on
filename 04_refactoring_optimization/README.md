@@ -11,6 +11,12 @@
 
 เปิด `bad-code.js` แล้วทำสองจังหวะนี้กับแต่ละเคส
 
+![เมนู mode ของ Copilot chat ที่เปิดอยู่ แสดงตัวเลือก Agent, Ask และ Plan](../assets/mod-04-chat-modes.webp)
+
+<sub>Source: VS Code docs · Microsoft · CC BY 3.0 US</sub>
+
+mode อยู่ใน dropdown ตัวเดียวกันในหน้าต่าง chat สลับไปมาได้ตลอด
+
 | จังหวะ | mode | ทำอะไร |
 |---|---|---|
 | 1 | **Ask** | เลือกโค้ด แล้วถามว่า "ฟังก์ชันนี้มีปัญหาอะไร" — Ask ไม่แตะไฟล์ ใช้ทำความเข้าใจก่อน |

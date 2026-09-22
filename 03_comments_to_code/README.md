@@ -6,6 +6,11 @@
 - ทดลองสร้างฟังก์ชันซับซ้อนจาก comment
 
 ## วิธีการ
+
+![comment ที่เขียนเองว่า log the result of the addition และบรรทัด console.log ที่ Copilot เสนอเป็นสีเทาอยู่ใต้ comment นั้น](../assets/mod-03-comment-to-code.webp)
+
+<sub>Source: VS Code docs · Microsoft · CC BY 3.0 US</sub>
+
 1. เขียน comment อธิบายสิ่งที่ต้องการให้ฟังก์ชันทำ
 2. กด Enter หรือ Ctrl+Enter เพื่อให้ Copilot สร้างโค้ด
 3. ปรับแต่งโค้ดที่ได้ตามต้องการ

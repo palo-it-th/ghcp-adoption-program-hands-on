@@ -1,5 +1,17 @@
 # Getting Started with GitHub Copilot: VS Code & IntelliJ
 
+## เป้าหมายของ module นี้ (5 นาที)
+
+ล็อกอินให้ได้ แล้วยืนยันว่า Copilot ตอบจริง — ดูที่ status bar มุมขวาล่าง
+
+![status bar ของ VS Code ขึ้นว่า Signed out และเมนู Copilot ที่เปิดอยู่ด้านบนมีปุ่ม Sign in to use Copilot](../assets/mod-01-sign-in.webp)
+
+<sub>Source: VS Code docs · Microsoft · CC BY 3.0 US</sub>
+
+1. ไอคอน Copilot ที่ status bar จะขึ้นว่า **Signed out**
+2. คลิกไอคอน แล้วกด **Sign in to use Copilot** — เบราว์เซอร์จะเปิดให้อนุมัติ
+3. กลับมาพิมพ์อะไรก็ได้ในไฟล์ ถ้ามีตัวหนังสือสีเทาขึ้น = พร้อมแล้ว ถ้าไม่ขึ้น **ยกมือ**
+
 ## 1. VS Code
 
 ### ติดตั้ง Copilot Extension

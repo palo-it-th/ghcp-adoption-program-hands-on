@@ -35,6 +35,12 @@
 
 ทำตามลำดับเดียวกับที่อยู่บนสไลด์ — **Plan → Agent → review**
 
+![โค้ดที่ agent แก้แสดงเป็น diff สีแดงเขียวใน editor พร้อมแถบ Keep กับ Undo ที่นับว่าเป็นการแก้ที่ 1 จาก 5](../assets/mod-05-review-diff.webp)
+
+<sub>Source: VS Code docs · Microsoft · CC BY 3.0 US</sub>
+
+จังหวะที่คนมักข้ามคือจังหวะสุดท้าย แถบ **Keep / Undo** นับให้ว่ามีกี่ไฟล์ อ่าน diff ให้ครบก่อนกด Keep
+
 1. เลือกโจทย์ที่สนใจ
 2. **Plan** — เปิด Plan mode ให้ Copilot วางขั้นตอนก่อน แล้วอ่านแผนว่าตรงกับที่ต้องการมั้ย
 3. **Agent** — ให้ Agent mode ลงมือเขียนตามแผน
