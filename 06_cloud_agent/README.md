@@ -18,10 +18,21 @@ module นี้ **ท่านไม่ต้องเปิด editor เล�
 | เช็คอะไร | ถ้าไม่ผ่าน |
 |---|---|
 | มี Copilot แบบเสียเงิน (แผนไหนก็ได้) | ใช้ไม่ได้ ต้องมี paid plan |
-| repo ที่จะให้มันทำงาน **ไม่ใช่** ของ Enterprise Managed Users (EMU) | **ใช้ไม่ได้เลย** cloud agent ไม่ทำงานใน repo ของ EMU |
+| บัญชีที่ท่านใช้ **ไม่ใช่** Enterprise Managed User (EMU) | fork ไม่ได้ — ดูทางเลือกข้างล่าง |
 | ท่านมีสิทธิ์ **write** ใน repo นั้น และ cloud agent ไม่ได้ถูกปิดไว้ | Copilot จะไม่ขึ้นในรายชื่อ assignee |
 
-ข้อ EMU เป็นเหตุผลที่ module นี้ให้ **fork ไปบัญชีส่วนตัวของท่าน** ไม่ใช่ทำใน repo ขององค์กร
+### ถ้าบัญชีของท่านเป็น Enterprise Managed User
+
+แผน fork ใช้ไม่ได้ ด้วยสองเหตุผลที่แยกจากกัน
+
+1. บัญชี EMU **fork repo นอก enterprise ไม่ได้** และทำอะไรกับ repo สาธารณะข้างนอกไม่ได้เลย ทั้ง push, เปิด issue, เปิด PR, คอมเมนต์ — เห็นได้อย่างเดียว
+2. ต่อให้ fork ได้ cloud agent ก็ไม่ทำงานใน **repo ส่วนตัว**ของ EMU เพราะมันรันบน GitHub-hosted runner ซึ่ง repo ส่วนตัวของ EMU ไม่มีให้ใช้
+
+**แต่ module นี้ไม่ได้ตาย** — เอกสารจำกัดข้อห้ามไว้ที่ repo *ส่วนตัว* และระบุว่า runner **ใช้ได้กับ repo ที่ organization เป็นเจ้าของ**
+
+ทางออกคือให้ทีมงานเตรียม repo ไว้ใน **organization ข้างใน enterprise ของท่านเอง** แล้ว seed เนื้อหา lab ลงไป จากนั้นทำ module 06 และ 07 ใน repo นั้นแทน ข้ามขั้นตอน Fork ข้างล่างไปได้เลย
+
+> 💰 repo ในองค์กร EMU เป็น private/internal ซึ่งแปลว่า **module 07 จะเริ่มกิน Actions minutes** ต่างจากแผน fork แบบ public
 
 > ℹ️ การ assign issue ให้ Copilot ยังเป็น **public preview** ปุ่มอาจขยับได้
 > ถ้าหน้าจอไม่ตรงกับที่เขียนไว้ บอกทีมงาน หน้าจอของท่านคือของจริง

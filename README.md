@@ -33,8 +33,10 @@ lab ชุดนี้ใช้ในช่วง hands-on ของ Kick-off Da
 | Cloud Agent | `06_cloud_agent` | เขียน issue → assign ให้ Copilot → มันเปิด PR กลับมา |
 | Review Agent | `07_review_agent` | ขอ Copilot รีวิว PR ใบนั้น แล้วรีวิวโค้ดที่แย่โดยตั้งใจอีกชุด |
 
-> ⚠️ **cloud agent ใช้ไม่ได้ใน repo ของ Enterprise Managed Users (EMU)**
-> และต้องมี Copilot แบบเสียเงิน ตรวจสองข้อนี้ก่อนวันอบรม
+> ⚠️ **ต้องมี Copilot แบบเสียเงิน และบัญชีต้องไม่ใช่ Enterprise Managed User (EMU)**
+> บัญชี EMU fork repo นอก enterprise ไม่ได้ และ cloud agent ไม่ทำงานใน repo ส่วนตัวของ EMU
+> ถ้าเป็น EMU ยังทำได้ แต่ต้องใช้ repo ที่ **organization ในองค์กรท่าน** เป็นเจ้าของแทนการ fork
+> ดูรายละเอียดใน [`06_cloud_agent/README.md`](./06_cloud_agent/README.md)
 
 ### 🎯 เป้าหมายการเรียนรู้
 
