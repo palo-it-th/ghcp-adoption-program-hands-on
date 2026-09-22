@@ -1,5 +1,8 @@
-// แบบฝึกหัด Coding Agent
-// ให้ Copilot เป็น AI Assistant ช่วยเขียนโค้ดและ review
+// โจทย์เพิ่มเติม — ถ้าอยากเขียน issue เอง แทนที่จะใช้สองอันใน tasks/
+//
+// แต่ละหัวข้อข้างล่างใหญ่เกินกว่าจะเสร็จในคลาส ใช้เป็นวัตถุดิบ
+// ตัดสัก 1 ฟีเจอร์มาเขียนเป็น issue แล้ว assign ให้ Copilot
+// ยิ่งเขียนขอบเขตชัด ยิ่งได้ PR ที่ตรง
 
 // === แบบฝึกหัดที่ 1: E-commerce Cart System ===
 // E-commerce Cart System 🛒
@@ -44,7 +47,7 @@
 // - Phone number validation (รองรับรูปแบบไทย)
 // - Credit card validation (Luhn algorithm)
 // - URL validation
-// - SQL injection prevention (ดูตัวอย่างใน sql-injection-example.js)
+// - SQL injection prevention (ตัวอย่างวิธีแก้อยู่ที่ ../../07_review_agent/fixtures/sql-injection-example.js)
 // - XSS prevention
 
 // SQL Injection Prevention Example:

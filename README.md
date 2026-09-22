@@ -25,10 +25,16 @@ lab ชุดนี้ใช้ในช่วง hands-on ของ Kick-off Da
 
 ### 🧩 หลังเบรก · ใช้ในช่วง coding challenge
 
+สองอันนี้อยู่บน **github.com** ไม่ใช่ใน editor และ**ต่อกันเป็นลูปเดียว**
+ต้อง fork repo นี้ไปบัญชีตัวเองก่อน เพราะต้องมีสิทธิ์เขียนถึงจะ assign Copilot และเปิด PR ได้
+
 | หัวข้อ | โฟลเดอร์ | กิจกรรม |
 |--------|-----------|----------|
-| Coding Agent | `06_coding_agent` | ให้ Copilot ลงมือเขียนจาก requirement |
-| Code Review | `07_copilot_code_review` | เปิด PR แล้วให้ Copilot รีวิว |
+| Cloud Agent | `06_cloud_agent` | เขียน issue → assign ให้ Copilot → มันเปิด PR กลับมา |
+| Review Agent | `07_review_agent` | ขอ Copilot รีวิว PR ใบนั้น แล้วรีวิวโค้ดที่แย่โดยตั้งใจอีกชุด |
+
+> ⚠️ **cloud agent ใช้ไม่ได้ใน repo ของ Enterprise Managed Users (EMU)**
+> และต้องมี Copilot แบบเสียเงิน ตรวจสองข้อนี้ก่อนวันอบรม
 
 ### 🎯 เป้าหมายการเรียนรู้
 
@@ -47,8 +53,8 @@ ghcp-adoption-program-hands-on/
 ├── 03_comments_to_code/          # แปลง comment เป็นโค้ด
 ├── 04_refactoring_optimization/  # ปรับปรุงโค้ด
 ├── 05_mini_challenge/            # โจทย์ฝึกหัด
-├── 06_coding_agent/              # ใช้เป็น AI Assistant
-└── 07_copilot_code_review/       # ให้ Copilot รีวิว PR
+├── 06_cloud_agent/               # assign issue ให้ Copilot บน github.com
+└── 07_review_agent/              # ให้ Copilot รีวิว PR
 ```
 
 ### 🚀 การเตรียมตัว
