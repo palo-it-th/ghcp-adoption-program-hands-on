@@ -1,18 +1,30 @@
 # Hands-on GitHub Copilot Workshop
 
-## ภาพรวมการอบรม (1.30 ชั่วโมง)
+## ภาพรวมการอบรม
 
-### 📋 โครงร่างการอบรม
+lab ชุดนี้ใช้ในช่วง hands-on ของ Kick-off Day ซึ่งมีเวลา **30 นาที** สำหรับ module 01–05
+ส่วน module 06 และ 07 อยู่หลังเบรก ใช้ในช่วง coding challenge
+
+### 📋 โครงร่างช่วง hands-on (30 นาที)
 
 | เวลา | หัวข้อ | โฟลเดอร์ | กิจกรรม |
 |------|--------|-----------|----------|
-| 10 นาที | Getting Started | `01_getting_started` | ติดตั้งและตั้งค่า Copilot |
-| 10 นาที | Basic Usage | `02_basic_usage` | ฝึกใช้ Inline Suggestions |
-| 10 นาที | Comments to Code | `03_comments_to_code` | เขียน comment ให้ Copilot สร้างโค้ด |
-| 10 นาที | Refactoring | `04_refactoring_optimization` | ปรับปรุงโค้ดด้วย Copilot |
-| 20 นาที | Mini Challenge | `05_mini_challenge` | ฝึกทำโปรเจ็กต์เล็ก |
-| 10 นาที | Coding Agent | `06_coding_agent` | ใช้ Copilot เป็น AI Copilot |
-| 10 นาที | Q&A / สรุป | - | แชร์ประสบการณ์ |
+| 5 นาที | Getting Started | `01_getting_started` | ติดตั้งและ sign in ให้ Copilot ตอบได้จริง |
+| 5 นาที | Basic Usage | `02_basic_usage` | ghost text, Tab, วนดูตัวเลือกอื่น |
+| 5 นาที | Comments to Code | `03_comments_to_code` | เขียน comment ให้ Copilot สร้างโค้ด |
+| 5 นาที | Refactoring | `04_refactoring_optimization` | ใช้ Ask เพื่อเข้าใจ แล้วใช้ Agent เพื่อแก้ |
+| 10 นาที | Mini Challenge | `05_mini_challenge` | Plan → Agent → อ่าน diff |
+
+> ⏱️ **แต่ละไฟล์มีแบบฝึกหัดมากกว่าที่เวลาจะพอ ตั้งใจไว้แบบนั้น**
+> ทำ 2–3 ข้อต่อ module แล้วไปต่อ ไม่ต้องทำครบ ที่เหลือเก็บไว้ทำเองหลังคลาสได้
+> ถ้าติดเกินสองนาที ยกมือเรียกทีมงาน อย่าเสียเวลาทั้ง module กับปัญหา sign-in
+
+### 🧩 หลังเบรก · ใช้ในช่วง coding challenge
+
+| หัวข้อ | โฟลเดอร์ | กิจกรรม |
+|--------|-----------|----------|
+| Coding Agent | `06_coding_agent` | ให้ Copilot ลงมือเขียนจาก requirement |
+| Code Review | `07_copilot_code_review` | เปิด PR แล้วให้ Copilot รีวิว |
 
 ### 🎯 เป้าหมายการเรียนรู้
 
@@ -25,13 +37,14 @@
 ### 📂 โครงสร้างโฟลเดอร์
 
 ```
-GSB hands on/
+ghcp-adoption-program-hands-on/
 ├── 01_getting_started/           # เริ่มต้นใช้งาน
 ├── 02_basic_usage/               # การใช้งานพื้นฐาน
 ├── 03_comments_to_code/          # แปลง comment เป็นโค้ด
 ├── 04_refactoring_optimization/  # ปรับปรุงโค้ด
 ├── 05_mini_challenge/            # โจทย์ฝึกหัด
 ├── 06_coding_agent/              # ใช้เป็น AI Assistant
+└── 07_copilot_code_review/       # ให้ Copilot รีวิว PR
 ```
 
 ### 🚀 การเตรียมตัว
