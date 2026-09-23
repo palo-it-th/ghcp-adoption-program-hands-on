@@ -3,7 +3,7 @@
 ## ภาพรวมการอบรม
 
 lab ชุดนี้ใช้ในช่วง hands-on ของ Kick-off Day ซึ่งมีเวลา **30 นาที** สำหรับ module 01–05
-ส่วน module 06 และ 07 อยู่หลังเบรก ใช้ในช่วง coding challenge
+หลังเบรกเป็น coding challenge ใน module 08 ส่วน module 06 และ 07 เก็บไว้ทำต่อเองหลังคลาส
 
 ### 📋 โครงร่างช่วง hands-on (30 นาที)
 
@@ -23,7 +23,13 @@ lab ชุดนี้ใช้ในช่วง hands-on ของ Kick-off Da
 > ทำ 2–3 ข้อต่อ module แล้วไปต่อ ไม่ต้องทำครบ ที่เหลือเก็บไว้ทำเองหลังคลาสได้
 > ถ้าติดเกินสองนาที ยกมือเรียกทีมงาน อย่าเสียเวลาทั้ง module กับปัญหา sign-in
 
-### 🧩 หลังเบรก · ใช้ในช่วง coding challenge
+### 🏁 หลังเบรก · coding challenge
+
+| เวลา | หัวข้อ | โฟลเดอร์ | กิจกรรม |
+|------|--------|-----------|----------|
+| 75 นาที | Coding Challenge | `08_coding_challenge` | สี่ sprint แต่ละ sprint เลือกโจทย์ Frontend หรือ Backend หนึ่งข้อ Copilot เปิดตลอด |
+
+### 🧩 ทำต่อเองหลังคลาส
 
 สองอันนี้อยู่บน **github.com** ไม่ใช่ใน editor และ**ต่อกันเป็นลูปเดียว**
 ต้อง fork repo นี้ไปบัญชีตัวเองก่อน เพราะต้องมีสิทธิ์เขียนถึงจะ assign Copilot และเปิด PR ได้
@@ -56,7 +62,8 @@ ghcp-adoption-program-hands-on/
 ├── 04_refactoring_optimization/  # ปรับปรุงโค้ด
 ├── 05_mini_challenge/            # โจทย์ฝึกหัด
 ├── 06_cloud_agent/               # assign issue ให้ Copilot บน github.com
-└── 07_review_agent/              # ให้ Copilot รีวิว PR
+├── 07_review_agent/              # ให้ Copilot รีวิว PR
+└── 08_coding_challenge/          # สี่ sprint หลังเบรก
 ```
 
 ### 🚀 การเตรียมตัว

@@ -1,6 +1,6 @@
 # 07 · Review Agent — ให้ Copilot รีวิว pull request
 
-> ใช้ในช่วง **coding challenge หลังเบรก**
+> **ทำต่อเองหลังคลาส** ไม่ใช่โจทย์ coding challenge (ช่วงนั้นใช้ [module 08](../08_coding_challenge/))
 > ส่วนที่ 1 ต่อจาก [module 06](../06_cloud_agent/) โดยตรง ส่วนที่ 2 ทำแยกได้
 
 ## เป้าหมาย

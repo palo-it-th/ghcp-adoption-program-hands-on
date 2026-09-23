@@ -1,6 +1,6 @@
 # 06 · Cloud Agent — ให้ Copilot ทำงานเองบน GitHub
 
-> ใช้ในช่วง **coding challenge หลังเบรก** ไม่ใช่ช่วง hands-on 30 นาที
+> **ทำต่อเองหลังคลาส** ไม่ได้อยู่ในช่วง hands-on 30 นาที และไม่ใช่โจทย์ coding challenge (ช่วงนั้นใช้ [module 08](../08_coding_challenge/))
 > module นี้ต่อกับ [module 07](../07_review_agent/) โดยตรง — PR ที่ได้จากที่นี่ คือ PR ที่ 07 จะเอาไปรีวิว
 
 ## เปลี่ยนจากทุก module ก่อนหน้าตรงไหน

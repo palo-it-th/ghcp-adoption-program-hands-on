@@ -8,7 +8,7 @@
 ## โจทย์ที่สามารถเลือกทำ
 
 > ⏱️ **ในคลาสมีเวลา 10 นาที เลือกจากระดับ Easy เท่านั้น**
-> ระดับ Medium กับ Hard เกินเวลาช่วงนี้ เก็บไว้ใช้ตอน coding challenge หลังเบรก หรือทำต่อเองหลังคลาส
+> ระดับ Medium กับ Hard เกินเวลาช่วงนี้ เก็บไว้ทำต่อเองหลังคลาส ส่วน coding challenge หลังเบรกใช้โจทย์ใน [module 08](../08_coding_challenge/)
 
 ### 🎯 ระดับ Easy — พอดีกับ 10 นาทีในคลาส
 1. **เครื่องคิดเลข** - สร้างเครื่องคิดเลขที่รองรับ +, -, *, / · [ตัวอย่างที่ทำเสร็จแล้ว](./calculator/) เปิดดูหลังลองเองแล้วเท่านั้น
@@ -17,14 +17,14 @@
 4. **Fibonacci Generator** - สร้างลำดับ Fibonacci
 5. **QR Code Generator** - สร้าง QR Code จาก text
 
-### 🚀 ระดับ Medium (20-25 นาที) — ช่วง coding challenge
+### 🚀 ระดับ Medium (20-25 นาที) — ทำต่อหลังคลาส
 1. **Weather App** - แสดงสภาพอากาศจาก API
 2. **Password Generator** - สร้างรหัสผ่านที่ปลอดภัย
 3. **Image Gallery** - แสดงรูปภาพแบบ slideshow
 4. **Quiz Game** - เกมตอบคำถาม
 5. **Currency Converter** - แปลงสกุลเงิน
 
-### 🔥 ระดับ Hard (30+ นาที) — ช่วง coding challenge
+### 🔥 ระดับ Hard (30+ นาที) — ทำต่อหลังคลาส
 1. **Chat Application** - แชทแบบ real-time · [คู่มือฉบับเต็ม](./chat-app-guide.md) · [แตกเป็น 10 tasks](./chat-app-tasks/)
 2. **Task Management** - ระบบจัดการงานแบบ Kanban
 3. **Data Visualization** - แสดงกราฟจากข้อมูล
